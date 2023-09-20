@@ -12,6 +12,9 @@ header {
     background-size: cover;
     text-align: center;
 }
+#banner p {
+    font-family: 'Scranji', cursive;
+}
 #banner::before {
     position: absolute;
     content: "";
@@ -33,6 +36,63 @@ nav li {
     display: inline;
     padding-right: 2rem;
 }
+.color-introduction h2, .reds h3{ 
+    font-family: 'Teko', sans-serif;
+    text-align: center;
+    font-size: 25px;
+}
+.blues h3 {
+    font-family: 'Teko', sans-serif;
+    text-align: center;
+    font-size: 25px;
+} 
+.color-introduction p {
+    font-family: 'Scranji', cursive;
+}
 .reds .base-color {
     color: hsl(350, 100%, 50%);
+}
+.blues .base-color {
+    color: hsl(250, 100%, 50%);
+}
+.yellow .base-color {
+    color: hsl(64, 100%, 50%);
+}
+.color-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+.color-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border: 2px solid black;
+    padding: 0;
+}
+.color {
+    width: 100%;
+    padding-bottom: 100%;
+    background-color: #FFF;
+}
+.color-descriptions {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+}
+.description {
+    flex: 2;
+    margin: 0;
+    font-family: 'Scranji', cursive;
+}
+.red-image, .blue-image, .yellow-image {
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
 }

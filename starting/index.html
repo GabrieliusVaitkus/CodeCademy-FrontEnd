@@ -1,36 +1,103 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link href="./styles.css" rel="stylesheet" type="text/css" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Nabla&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <header>
-            <nav>
-                <ul>
-                    <li><a href="#">Color's</a></li>
-                    <li><a href="#">Font's</a></li>
-                </ul>
-            </nav>
-        </header>
-        <div id="banner">
-            <h1>Style guide/design system</h1>
-            <p>This project will showcase how I use certain color option's, font option's and how would I use css to style my website</p>
-        </div>
-        <div id="color">
-            <div class="color-introduction">
+
+<head>
+    <link href="./styles.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nabla&family=Skranji&family=Teko:wght@500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Color's</a></li>
+                <li><a href="#">Font's</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="banner">
+        <h1>Style guide/design system</h1>
+        <p>This project will showcase how I use certain color option's, font option's and how would I use css to style
+            my website</p>
+    </div>
+    <div id="color">
+        <div class="color-introduction">
             <h2>Color guide</h2>
-            <p>Below shown color's will utilize certain CSS values as follows: rgb(), rgba(), hsl() or hsla(). Each color will have it's own box 
+            <p>Below shown color's will utilize certain CSS values as follows: rgb(), rgba(), hsl() or hsla(). Each
+                color will have it's own box
                 with a code displayed it's selected color code and actual color name.</p>
-            </div>
-                <div class="reds">
-                    <h3>Shades of <span class="base-color">RED</span></h3>
-                </div>
-                <div class="red-image">
-                    <img src="./images/strawberries.jpg" />
-                </div>
         </div>
-    </body>
+        <div class="red-image">
+            <img src="./images/strawberries.jpg" />
+        </div>
+        <div class="reds">
+            <h3>Shades of <span class="base-color">RED</span></h3>
+        </div>
+        <div class="color-container">
+            <div class="color-box">
+                <div class="color" style="background-color: rgb(255, 0, 0);"></div>
+            </div>
+            <div class="color-box">
+                <div class="color" style="background-color: rgb(255, 80, 80);"></div>
+
+            </div>
+            <div class="color-box">
+                <div class="color" style="background-color: rgb(255, 120, 120);"></div>
+            </div>
+        </div>
+        <div class="color-descriptions">
+            <div class="description">rgb(255, 0, 0)</div>
+            <div class="description">rgb(255, 80, 80)</div>
+            <div class="description">rgb(255, 120, 120)</div>
+        </div>
+        <div class="blue-image">
+            <img src="./images/blue.jpg"/>
+        </div>
+        <div class="blues">
+            <h3>Shades of <span class="base-color">BLUE</span></h3>
+        </div>
+        <div class="color-container">
+            <div class="color-box">
+                <div class="color" style="background-color: hsl(250, 100%, 50%);"></div>
+            </div>
+            <div class="color-box">
+                <div class="color" style="background-color: hsl(250, 100%, 65%);"></div>
+            </div>
+            <div class="color-box">
+                <div class="color" style="background-color: hsl(250, 100%, 75%);"></div>
+            </div>
+        </div>
+        <div class="color-descriptions">
+            <div class="description">hsl(250, 100%, 50%)</div>
+            <div class="description">hsl(250, 100%, 65%)</div>
+            <div class="description">hsl(250, 100%, 75%)</div>
+        </div>
+        <div class="yellow-image">
+            <img src="./images/lemon.jpg"/>
+        </div>
+        <div class="yellows">
+            <h3>Shades of <span class="base-color">YELLOW</span></h3>
+        </div>
+        <div class="color-container">
+            <div class="color-box">
+                <div class="color" style="background-color: rgba(239, 255, 16, 0.952);"></div>
+            </div>
+            <div class="color-box">
+                <div class="color" style="background-color: rgba(241, 253, 67, 0.952);"></div>
+            </div>
+            <div class="color-box">
+                <div class="color" style="background-color: rgba(247, 255, 128, 0.952);"></div>
+            </div>
+        </div>
+        <div class="color-descriptions">
+            <div class="description">rgba(239, 255, 16, 0.952)</div>
+            <div class="description">rgba(241, 253, 67, 0.952)</div>
+            <div class="description">rgba(247, 255, 128, 0.952)</div>
+        </div>
+    </div>
+</body>
+
 </html>
